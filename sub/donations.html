@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en dir="ltr"> 
+	<head>
+	<title> Donations </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.navbar1 {
+  overflow: hidden;
+  background-color: lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+float:left;
+overflow:hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: lightblue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .header {
+  background: lightblue;
+  padding: 16px;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.display {
+display: block;
+margin-left: auto;
+margin-right:auto;
+  border: 8px solid #ddd;
+  border-radius: 10px;
+  padding: 2px;
+  width: 220px;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  background-color: #ccc;
+  height: 250px;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #ddd;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 { 
+text-align:center;
+}
+h2 { 
+text-align:center;
+}
+h3 { 
+text-align:center;
+}
+h4 { 
+text-align:center;
+}
+p { 
+text-align:center;
+}
+p.left { text-align:left;
+}
+tr, td {
+text-align: center;
+padding:8px;
+}
+table { 
+font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  }
+  
+table.center{
+margin-left:auto;
+margin-right:auto;
+}
+td.col {
+border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  }
+  
+  table.mytable tr:nth-child(even) {
+background-color: #dddddd;
+font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+form {
+		display: inline-block
+		}
+
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 2px 5px 5px 0;
+  display: inline-block
+}
+
+input[type=submit] {
+  background-color:  #008CBA;
+  color: white;
+  padding: 5px 5px;
+  border: 2px solid #555555;
+  border-radius: 12px;
+  cursor: pointer;
+  float: right;
+  margin-right:10px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+  
+  cursor pointer{
+  float: left;
+}
+
+
+footer {
+ background-color: black;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+footer {
+ background-color: black;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, .column a {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+	</head>
+	
+		<body>
+		<div class="navbar1">
+<table>
+<tr>
+<td>
+        <img src="../img/logo.png" alt="logo of the website" width="70" height="70">
+		</td>
+		<center>
+      <td>
+          <a> <h1 >A Home For Your Pet</h1> </a>
+          <p> <em>The perfect partner is waiting for you</em></p>
+		  </td>
+		  </tr>
+		  </table>
+		  <hr/>
+		  </div>
+
+  <div class="navbar">
+  <a href="../index.html"> 
+  <i class="fa fa-home" style="font-size:30px;color:white">
+</i>
+</a>
+  <a href= "./aboutpage.html">About Us</a>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Adoption 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <div class="header">
+	  <h2> Adopt a cutie and give them a loving home </br> 
+	  Choose Your Breed</h2>
+      </div>   
+      <div class="row">
+        <div class="column">
+          <h3>Puppies</h3>
+          <a href="./huskypups.html">Husky</a>
+          <a href="./pitbullpups.html">Pitbull</a>
+        </div>
+		
+        <div class="column">
+          <h3>Dogs</h3>
+          <a href="./jackrusselldogs.html">Jack Russell terrier</a>
+          <a href="./mixedbreedogs.html">Mixed Breed</a>
+        </div>
+		
+        <div class="column">
+          <h3>Kittens</h3>
+          <a href="./perssiankittens.html">Persian</a>
+          <a href="./britishshorthairkittens.html">British Shorthair</a>
+        </div>
+		<div class="column">
+          <h3>Cats</h3>
+          <a href="./ragdollcats.html">Ragdoll</a>
+          <a href="./ocicats.html">Ocicat</a>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+<table>
+  <tr>
+  
+  <td>
+  <div class = "display">
+  <img src ="../img/donations.jpg" alt="A Pets Life" width ="200" height = "200">
+		  </div>
+		 </td>
+		 
+		 <td>
+		 <h1> <u> DONATE NOW! </u> </h1>
+		 </td>
+		
+		 <td> 
+		  <div class = "display">
+		 <img src = "../img/petwithbox.jpg" alt = "pet with a donation box" width = "200" height = "200">
+		
+		 </td>
+		  </div>
+		 </tr>
+		 </table>
+		 
+		 
+		  <h2> <b> Your donation can help save an animal! </b> </h2> <br>
+		  <p> <b> <i> Animals enrich our lives in so many ways. </i> </b> They give us joy, protection, companionship,
+ and unconditional love. <br> Our tough economic times mean less money but more animals are in need of help. </p>
+ <p>Your wonderful support will ensure the ongoing care of the animals at A Home For Your Pet. <br>
+ It also help us to provide basic education, treatment, rescue and sterilisation work undertaken by us on a daily basis.<br> <br> </p>
+ 
+ 
+ <p> <strong> Without donations from the public, A Home For Your Pet is not able to sustain its activities. <br>
+No donation should be regarded as too big or too small. </strong>  </p> <br>
+
+<p> <strong> We would like you to know </strong> that not only will your donation directly benefit the animals in our area but - <br>
+ through a sharing agreement between all A Home For Your Pet nationwide – <br> 
+ a portion will be used in other, less fortunate areas to benefit animals over a wider area. </p> <br>
+ 
+ <p> <strong> There are a number of different ways you can donate to A Home For Your Pet: <strong> </p>
+ </br>
+ <script>
+    function myfunction(){
+      alert("Your donation has been processed. Thank you very much");
+    }
+
+  </script>
+ <form name = "myform">
+<form action = "/action_page.php" method = "post">
+<table class = "layout">
+<tr>
+<td>
+<label for "product">
+Product: </label>
+</td>
+<td>
+<select id = "product" name="product">
+				
+<option value="UnopenedId">Unopened Foods</option>
+<option value="TreatsId">Animal treats</option>
+<option value="LeashesId">Leashes</option>
+<option value="CollarsId">Collars</option>
+<option value="HarnessId">Harnesses</option>
+<option value="BlanketsId">Blankets</option>
+<option value="SheetsId">Sheets</option>
+<option value="TowelsId">Towels</option>
+<option value="SturdyId">Sturdy Toys</option>  
+<option value="CarrierId">Carriers</option>
+<option value="CratesId">Metal Crates</option>
+<option value="FoodsId">Animal Foods</option>
+<option value="CleaningId">Cleaning supplies</option>
+<option value="DonationId">Any other donation</option>
+ </select>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td>
+ 
+ <label for "name">
+                Name:
+				</label>
+				</td>
+				<td>
+                <input type="text" maxlength="12" name="name" value="Enter Name" onblur="if(this.value=='') this.value='Name';" onfocus="if(this.value=='Enter Name') this.value='';"/>
+            </td>
+			
+			</tr>
+			
+			<tr>
+			<td>
+			<label for "surname">
+                Surname:
+				</label>
+				</td>
+				<td>
+                <input type="text" maxlength="12" surname="surname" value="Enter Surname" onblur="if(this.value=='') this.value='Surname';" onfocus="if(this.value=='Enter Surname') this.value='';"/>
+            
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<label for "email">
+                Email:
+				</label>
+				</td>
+				<td>
+                <input type="text" maxlength="12" Email="email" value="Enter Email" onblur="if(this.value=='') this.value='Email';" onfocus="if(this.value=='Enter Email') this.value='';"/>
+            </td>
+			</tr>
+			<tr>
+			<td>
+			<label for "cell">
+                Cell:
+				</label>
+				</td>
+				<td>
+                <input type="text" maxlength="12" cell="cell" value="Enter Cell" onblur="if(this.value=='') this.value='Cell';" onfocus="if(this.value=='Enter Cell') this.value='';"/>
+           </td>
+		   </tr>
+		   <tr>
+		   <td>
+		   </td>
+		   <td>
+		   <input onclick = "myfunction()" type="submit" name="submit" value="Submit"> </input>   
+		   
+		   </td>
+                  </tr>
+</table>				  
+        
+ </form>
+ 
+ <br>
+		<p class = "left"> <strong> Other ways to contribute is via EFT : </p></strong>
+        <br>
+		
+		
+		<table class = "mytable">
+		      
+              <td class = "col">Bank Name</td>
+		      <td class = "col">First National Bank</td>
+			  
+           </tr>
+		   
+            <tr>
+			
+               <td class = "col"> Account Holder</td>
+			   <td class = "col">A Home For Your Pet</td>
+			   
+            </tr>
+            
+			 <tr>
+			 
+              <td class = "col">Branch</td>
+			  <td class = "col">Kimberley North</td>
+			  
+             </tr>
+			 
+			 <tr>
+			 
+              <td class = "col">BranchCode</td>
+			  <td class = "col">251255</td>
+			  
+             </tr>
+			 
+           <tr>
+		   
+              <td class = "col">AccountNumber </td>
+			  <td class = "col">62021109972 </td>
+			  
+            </tr>    
+         </table>  
+		<br>
+        <br>
+<center>
+<p><strong> <a href="./donatepp.php">Click here to Donate using PayPal</a> </strong></p>
+
+
+  
+
+
+
+
+</body>
+<footer>
+          
+            <p>
+              &copy;
+              2020
+              <b>
+                A Home For Your Pet
+              </b>
+              All rights reserved.
+            </p>
+        </footer>
+</html>
